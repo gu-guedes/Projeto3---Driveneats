@@ -1,0 +1,325 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.topo{
+    background-color: #CF2B2B;
+    width: 414px;
+    height: 92px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+    
+    
+    
+}
+.titulo{
+    background-color: #CF2B2B;
+    width: 248px;
+    height: 44px;
+    margin-left: 21px;
+    font-size:44px;
+    color:white;
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+
+    
+}
+.subtitulo{
+    background-color:  #CF2B2B;
+    width: 226px;
+    height: 17px;
+    margin-left:21px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: white;
+}
+.conteudo{
+    
+    background-color: greenyellow;
+    width: 414px;
+    margin-top: 92px;
+    margin-bottom: 92px;   
+    
+}
+.pedidos{
+    
+    width:414px;
+    height: 289px;
+}
+.caixa-prato{
+    background-color: #E5E5E5;;
+    height: 73px;
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.prato{
+    background-color: #E5E5E5;
+    width: 300px;
+    height: 25px;
+    margin-left: 19px;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    
+}
+.caixa-opcoes1{
+    background-color: #E5E5E5;
+    width: 414px;
+    height: 216px;
+    
+    display:flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    
+    
+}
+.caixa-opcoes2{
+    background-color: #E5E5E5;
+    width: 414px;
+    height: 216px;
+    
+    display:flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    
+    
+}
+.caixa-opcoes3{
+    background-color: #E5E5E5;
+    width: 414px;
+    height: 216px;
+    
+    display:flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    
+    
+}
+
+
+    
+
+
+.opcoes{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+    
+   
+    
+}
+.opcoes2{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes3{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes4{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes5{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes6{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes7{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes8{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.opcoes9{
+    background-color: white;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 16px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.5);
+}
+.selecionado{
+    border: 1mm solid #32B72F;
+    
+
+   
+}
+.selecionado ion-icon{
+    
+    display: initial;
+}
+.check{
+   color:#32B72F;
+   font-size: 19px;
+   display:none;
+
+    
+
+}
+
+
+.borda-opçoes{
+    
+    background-color: white;
+    width: 144px;
+    height: 170px;
+    margin-left: 14px;
+    margin-right: 14px;
+    border-radius: 9px;
+    
+    
+}
+img{
+    max-width: 100%;
+   max-height: 100%;
+}
+.imagem{
+    width: 144px;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+.nome-prato{
+    width: 144px;
+    height: 23px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.descriçao-prato{
+    margin-top: 10px;
+    width: 144px;
+    height: 39px;
+    font-weight: 300;
+    font-size: 15px;
+    color:#A6A6A6;
+}
+.preço-prato{
+    width: 144px;
+    height: 19px;
+    font-weight:400;
+    font-size: 16px;
+    color:#000000;
+    display:flex;
+    justify-content: space-between;
+
+
+
+
+
+}
+    
+
+.inferior{
+    background-color: white;
+    width: 414px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:0;
+    left:0;
+    margin-top: 92px;
+
+
+}
+.fechar-pedido{
+    background-color: #CBCBCB;
+    width: 364px;
+    height: 53px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    color: white;
+}
+.confirmar-pedido{
+    background-color:#32B72F;
+    width: 364px;
+    height: 53px;
+    border-radius: 50px;
+    
+    align-items: center;
+    justify-content: center;
+    font-size:20px;
+    color: white;
+    display:none;
+
+}
